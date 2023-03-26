@@ -145,7 +145,7 @@ with tab1:
 
         off_bus_name = col_2.selectbox(
             'Та аль буудал дээр буух вэ?',
-            (to_show_stops),index=5)
+            (to_show_stops))
 
         #how_many_stops_to_go = np.where(bus_stop_names == off_bus_name)[0].item()
         bus_stop_dict = {stop_name: index for index, stop_name in enumerate(bus_stop_names)}
